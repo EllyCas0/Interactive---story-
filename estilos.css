@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rebeccapurple;
+    background: url(coffee.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family: 'Silkscreen', cursive;
+}
+h1{
+    color:blue;
+    font-size: 6em;
+    text-align: center;
+}
+a{
+    color:blue;
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family:sans-serif;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+span{
+    text-align: center;
+    display:block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 51ch;
+
+    animation: typing 2s steps(51), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    @keyFrames typing {
+        from {widtn:0}
+    }
+    @keyFrames blink {
+        50% {border-clor:transparent}
+    }></span>
